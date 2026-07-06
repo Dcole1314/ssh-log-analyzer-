@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing / linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+
+# Generated reports from this project (regenerate anytime with parse_ssh_log.py)
+security_report.csv
+ip_timelines.txt
+
+# Real security data — don't commit actual system logs
+security_log.csv
+*.evtx

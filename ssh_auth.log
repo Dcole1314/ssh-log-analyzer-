@@ -1,0 +1,57 @@
+Jul  4 03:12:01 prod-web01 sshd[14032]: Failed password for root from 45.142.120.15 port 51322 ssh2
+Jul  4 03:12:09 prod-web01 sshd[14034]: Failed password for root from 45.142.120.15 port 51330 ssh2
+Jul  4 03:12:18 prod-web01 sshd[14036]: Failed password for root from 45.142.120.15 port 51338 ssh2
+Jul  4 03:12:27 prod-web01 sshd[14038]: Failed password for root from 45.142.120.15 port 51344 ssh2
+Jul  4 03:12:36 prod-web01 sshd[14040]: Failed password for root from 45.142.120.15 port 51352 ssh2
+Jul  4 03:12:45 prod-web01 sshd[14042]: Failed password for root from 45.142.120.15 port 51360 ssh2
+Jul  4 03:12:54 prod-web01 sshd[14044]: Failed password for root from 45.142.120.15 port 51368 ssh2
+Jul  4 03:13:03 prod-web01 sshd[14046]: Failed password for root from 45.142.120.15 port 51374 ssh2
+Jul  4 03:13:12 prod-web01 sshd[14048]: Failed password for root from 45.142.120.15 port 51382 ssh2
+Jul  4 03:13:21 prod-web01 sshd[14050]: Failed password for root from 45.142.120.15 port 51390 ssh2
+Jul  4 03:13:30 prod-web01 sshd[14052]: message repeated 3 times: [ Failed password for root from 45.142.120.15 port 51398 ssh2]
+Jul  4 03:13:48 prod-web01 sshd[14058]: Connection closed by authenticating user root 45.142.120.15 port 51398 [preauth]
+Jul  4 05:41:02 prod-web01 sshd[14090]: Failed password for invalid user pi from 91.203.5.10 port 39281 ssh2
+Jul  4 05:41:03 prod-web01 sshd[14090]: Connection closed by invalid user pi 91.203.5.10 port 39281 [preauth]
+Jul  4 08:02:11 prod-web01 sshd[14501]: Accepted password for dcole from 203.0.113.50 port 52344 ssh2
+Jul  4 08:02:11 prod-web01 sshd[14501]: pam_unix(sshd:session): session opened for user dcole(uid=1000) by (uid=0)
+Jul  4 08:47:03 prod-web01 sudo[14577]:   dcole : TTY=pts/0 ; PWD=/home/dcole ; USER=root ; COMMAND=/usr/bin/apt update
+Jul  4 12:15:40 prod-web01 sshd[14501]: pam_unix(sshd:session): session closed for user dcole
+Jul  4 19:22:47 prod-web01 sshd[14622]: Accepted publickey for dcole from 198.51.100.77 port 60112 ssh2: RSA SHA256:aXb1kLp9Q2z8mN0dF3hT6yU4vC7wR5sJ8eK1oI2pL9x
+Jul  4 19:22:47 prod-web01 sshd[14622]: pam_unix(sshd:session): session opened for user dcole(uid=1000) by (uid=0)
+Jul  4 20:05:12 prod-web01 sshd[14622]: pam_unix(sshd:session): session closed for user dcole
+Jul  5 08:05:33 prod-web01 sshd[15102]: Accepted password for dcole from 203.0.113.50 port 52890 ssh2
+Jul  5 08:05:33 prod-web01 sshd[15102]: pam_unix(sshd:session): session opened for user dcole(uid=1000) by (uid=0)
+Jul  5 14:20:11 prod-web01 sshd[15390]: Failed password for invalid user admin from 185.220.101.7 port 44210 ssh2
+Jul  5 14:20:19 prod-web01 sshd[15392]: Failed password for invalid user test from 185.220.101.7 port 44218 ssh2
+Jul  5 14:20:27 prod-web01 sshd[15394]: Failed password for invalid user ubuntu from 185.220.101.7 port 44226 ssh2
+Jul  5 14:20:35 prod-web01 sshd[15396]: Failed password for invalid user oracle from 185.220.101.7 port 44234 ssh2
+Jul  5 14:20:43 prod-web01 sshd[15398]: Failed password for invalid user postgres from 185.220.101.7 port 44242 ssh2
+Jul  5 14:20:51 prod-web01 sshd[15400]: Failed password for invalid user guest from 185.220.101.7 port 44250 ssh2
+Jul  5 14:20:59 prod-web01 sshd[15402]: Failed password for invalid user git from 185.220.101.7 port 44258 ssh2
+Jul  5 14:21:07 prod-web01 sshd[15404]: Failed password for invalid user user from 185.220.101.7 port 44266 ssh2
+Jul  5 14:21:15 prod-web01 sshd[15406]: Failed password for invalid user support from 185.220.101.7 port 44274 ssh2
+Jul  5 14:21:23 prod-web01 sshd[15408]: Failed password for invalid user info from 185.220.101.7 port 44282 ssh2
+Jul  5 14:21:31 prod-web01 sshd[15410]: Failed password for invalid user ftpuser from 185.220.101.7 port 44290 ssh2
+Jul  5 14:21:39 prod-web01 sshd[15412]: Failed password for invalid user deploy from 185.220.101.7 port 44298 ssh2
+Jul  5 14:21:47 prod-web01 sshd[15414]: Failed password for invalid user jenkins from 185.220.101.7 port 44306 ssh2
+Jul  5 14:21:55 prod-web01 sshd[15416]: Failed password for invalid user minecraft from 185.220.101.7 port 44314 ssh2
+Jul  5 14:22:03 prod-web01 sshd[15416]: Received disconnect from 185.220.101.7 port 44314:11: Bye Bye [preauth]
+Jul  5 14:22:03 prod-web01 sshd[15416]: Disconnected from invalid user minecraft 185.220.101.7 port 44314 [preauth]
+Jul  5 17:40:02 prod-web01 sshd[15102]: pam_unix(sshd:session): session closed for user dcole
+Jul  5 22:10:05 prod-web01 sshd[15701]: Failed password for invalid user admin from 45.142.120.15 port 55210 ssh2
+Jul  5 22:10:14 prod-web01 sshd[15703]: Failed password for invalid user admin from 45.142.120.15 port 55218 ssh2
+Jul  5 22:10:23 prod-web01 sshd[15705]: Failed password for invalid user admin from 45.142.120.15 port 55226 ssh2
+Jul  5 22:10:32 prod-web01 sshd[15705]: Connection closed by invalid user admin 45.142.120.15 port 55226 [preauth]
+Jul  6 08:00:52 prod-web01 sshd[16210]: Accepted password for dcole from 203.0.113.50 port 53012 ssh2
+Jul  6 08:00:52 prod-web01 sshd[16210]: pam_unix(sshd:session): session opened for user dcole(uid=1000) by (uid=0)
+Jul  6 09:05:02 prod-web01 sshd[16301]: Failed password for backup from 103.45.67.201 port 47701 ssh2
+Jul  6 09:05:11 prod-web01 sshd[16303]: Failed password for backup from 103.45.67.201 port 47705 ssh2
+Jul  6 09:05:20 prod-web01 sshd[16305]: Failed password for backup from 103.45.67.201 port 47711 ssh2
+Jul  6 09:05:29 prod-web01 sshd[16307]: Failed password for backup from 103.45.67.201 port 47717 ssh2
+Jul  6 09:05:38 prod-web01 sshd[16309]: Failed password for backup from 103.45.67.201 port 47723 ssh2
+Jul  6 09:05:47 prod-web01 sshd[16311]: Failed password for backup from 103.45.67.201 port 47729 ssh2
+Jul  6 09:05:56 prod-web01 sshd[16313]: Accepted password for backup from 103.45.67.201 port 47735 ssh2
+Jul  6 09:05:56 prod-web01 sshd[16313]: pam_unix(sshd:session): session opened for user backup(uid=1004) by (uid=0)
+Jul  6 09:07:31 prod-web01 sshd[16313]: pam_unix(sshd:session): session closed for user backup
+Jul  6 09:30:14 prod-web01 sudo[16350]:   dcole : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Jul  6 18:12:40 prod-web01 sshd[16210]: pam_unix(sshd:session): session closed for user dcole
